@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Space Mono';
+    src: url('SpaceMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.folder-icon {
+    width: 100px; 
+    height: 100px; 
+    background: url('ficon.png') center/contain no-repeat; 
+    border-radius: 10px;
+    margin-bottom: -5px; 
+}
+
+.folder-date {
+    margin-top: 3px; 
+    margin-left: 5px; 
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.logo-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    max-width: 100%;
+    margin: 20px auto 0; 
+    background-color: #000; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo-container img {
+    max-width: 200px; 
+    height: auto;
+}
+
+
+
+
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles.css"> 
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <div class="blog-content">
+        
+        <div id="contentContainer"></div>
+    </div>
+
+    
+
+    <script src="../../script.js"></script>
+    <script>
+        fetch('content.html')
+            .then(response => response.text())
+            .then(content => {
+                document.getElementById('contentContainer').innerHTML = content;
+            });
+    </script>
+</body>
+</html>
